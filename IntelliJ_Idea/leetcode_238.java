@@ -1,4 +1,4 @@
-package arrays;
+package IntelliJ_Idea;
 import java.util.*;
 public class leetcode_238 {
     public static void main(String[] args) {

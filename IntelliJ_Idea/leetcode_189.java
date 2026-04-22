@@ -1,4 +1,4 @@
-package arrays;
+package IntelliJ_Idea;
 
 import java.util.Arrays;
 

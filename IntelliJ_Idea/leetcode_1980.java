@@ -1,4 +1,4 @@
-package strings;
+package IntelliJ_Idea;
 
 public class leetcode_1980 {
     public static void main(String[] args) {

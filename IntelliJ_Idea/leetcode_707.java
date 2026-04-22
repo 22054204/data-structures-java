@@ -1,4 +1,4 @@
-package linked_list;
+package IntelliJ_Idea;
 
 public class leetcode_707 {
     public static void main(String[] args) {
