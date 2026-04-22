@@ -1,7 +1,7 @@
 // Leetcode-344
 // Reverse String
 //https://leetcode.com/problems/reverse-string/
-package IntelliJ_Idea;
+package problems_solved_on_intellij;
 import java.util.*;
 public class leetcode_344 {
     public static void main(String[] args) {

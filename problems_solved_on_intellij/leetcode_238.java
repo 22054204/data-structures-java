@@ -1,4 +1,4 @@
-package IntelliJ_Idea;
+package problems_solved_on_intellij;
 import java.util.*;
 public class leetcode_238 {
     public static void main(String[] args) {

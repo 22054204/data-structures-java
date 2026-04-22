@@ -1,7 +1,7 @@
 //leetcode-23
 //Merge K sorted Lists
 //https://leetcode.com/problems/merge-k-sorted-lists/description/
-package IntelliJ_Idea;
+package problems_solved_on_intellij;
 import java.util.*;
 public class leetcode_23 {
     static class ListNode {

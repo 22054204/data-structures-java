@@ -1,4 +1,4 @@
-package IntelliJ_Idea;
+package problems_solved_on_intellij;
 
 public class leetcode_707 {
     public static void main(String[] args) {
