@@ -3,7 +3,7 @@
 This repository contains my practice problems and implementations of:
 
 - Arrays
-- Strings
+- strings
 - Linked List
 - Trees
 

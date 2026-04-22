@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class leetcode_1980 {
     public static void main(String[] args) {
