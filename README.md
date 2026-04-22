@@ -1,1 +1,13 @@
-This repository contains Java DSA practice code.
+# Data Structures in Java
+
+This repository contains my practice problems and implementations of:
+
+- Arrays
+- Linked List
+- Trees
+
+Each folder contains topic-wise problems.
+
+Upcoming:
+- Graphs
+- Dynamic Programming
