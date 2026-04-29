@@ -9,8 +9,11 @@ public class Implementation {
         tree.preetyDisplay();
     }
 }
+
 class BinaryTree {
+
     public BinaryTree() {}
+
     private static class Node {
         int value;
         Node left;
@@ -18,6 +21,7 @@ class BinaryTree {
 
         public Node(int value) {
             this.value = value;
+            this.left = this.right = null;
         }
     }
 
@@ -69,8 +73,9 @@ class BinaryTree {
     }
 
     public void preetyDisplay() {
-        preetyDisplay(root, 0); //
+        preetyDisplay(root, 0);
     }
+
     public void preetyDisplay(Node node, int level) {
         if (node == null) {
             return;
@@ -80,12 +85,13 @@ class BinaryTree {
 
         if (level != 0) {
             for (int i = 0; i < level - 1; i++) {
-                System.out.print("|\t\t"); //
+                System.out.print("|\t\t");
             }
             System.out.println("|------->|" + node.value);
         } else {
             System.out.println(node.value);
         }
+
         preetyDisplay(node.left, level + 1);
     }
 }
