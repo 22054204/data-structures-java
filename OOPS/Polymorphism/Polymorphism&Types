@@ -1,0 +1,96 @@
+Polymorphism = One thing, many forms
+
+It allows the same method name to behave differently depending on the object.
+------------------------------------------------------------------------------------------------------------------------
+Types of Polymorphism
+
+    1. Compile-Time Polymorphism (Method Overloading)
+
+Multiple methods have the same name but different parameters.
+Decided by the compiler at compile time.
+
+class Calculator{
+    int add(int a, int b){
+        return a + b;
+    }
+    int add(int a, int b, int c){
+        return a + b + c;
+    }
+}
+
+    2. Runtime Polymorphism (Method Overriding)
+
+A subclass provides its own implementation of a parent class method.
+Decided at runtime based on the actual object.
+
+class Animal{
+    void makeSound(){
+        System.out.println("Animal Sound");
+    }
+}
+class Dog extends Animal{
+    @Override
+    void makeSound(){
+        System.out.println("Bark");
+    }
+}
+Animal a = new Dog();
+a.makeSound(); // Bark
+
+------------------------------------------------------------------------------------------------------------------------
+    ==>> Constructor Chaining
+
+Constructor Chaining = Calling one constructor from another constructor.
+
+-> Within Same Class
+
+class Test{
+    Test(){
+        this(10);
+    }
+    Test(int x){
+        System.out.println(x);
+    }
+}
+
+-> Between Parent and Child Class
+
+class Parent{
+    Parent(){
+        System.out.println("Parent");
+    }
+}
+class Child extends Parent{
+    Child(){
+        super();
+        System.out.println("Child");
+    }
+}
+------------------------------------------------------------------------------------------------------------------------
+        Diamond Problem
+
+Occurs when a class inherits from two classes that have a common parent and both contain the same method.
+Leads to ambiguity about which method should be inherited.
+      A
+     / \
+    B   C
+     \ /
+      D
+Java does not support multiple inheritance of classes, so the diamond problem is avoided.
+With interfaces, Java resolves it using method overriding.
+------------------------------------------------------------------------------------------------------------------------
+OOP Languages - Common object-oriented programming languages:
+
+                        C++
+                        Java
+                        Python
+                        C#
+                        Smalltalk
+------------------------------------------------------------------------------------------------------------------------
+Interview One-Liners
+
+✅ Polymorphism: One interface, many implementations.
+✅ Overloading: Same method name, different parameters (Compile Time).
+✅ Overriding: Same method signature in parent and child classes (Runtime).
+✅ Constructor Chaining: Calling one constructor from another constructor.
+✅ Diamond Problem: Ambiguity caused by multiple inheritance; Java avoids it by not allowing multiple inheritance of classes.
