@@ -6,9 +6,14 @@ I use this repository to practice problems, understand different approaches, imp
 
 ---
 
-# 📚 Topics Covered
+## 📚 Topics Covered
+
+<table>
+<tr>
+<td width="600" valign="top">
 
 ### Arrays
+
 - Two Pointers
 - Sliding Window
 - Prefix Sum
@@ -21,7 +26,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Matrix / 2D Arrays
 - In-Place Manipulation
 
+</td>
+<td width="600" valign="top">
+
 ### Strings
+
 - String Manipulation
 - Character Frequency
 - Hashing
@@ -33,7 +42,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Pattern Matching
 - String Parsing
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Linked Lists
+
 - Traversal
 - Insertion & Deletion
 - Reversal
@@ -44,7 +60,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Remove Nth Node
 - Pointer Manipulation
 
+</td>
+<td width="600" valign="top">
+
 ### Stack
+
 - Stack Operations
 - Parentheses Problems
 - Monotonic Stack
@@ -54,7 +74,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Expression Problems
 - Stack-Based Traversal
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Queue
+
 - Queue Operations
 - Deque
 - Circular Queue
@@ -63,7 +90,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Sliding Window using Deque
 - Queue-Based Problems
 
+</td>
+<td width="600" valign="top">
+
 ### Heap & Priority Queue
+
 - Min Heap
 - Max Heap
 - Priority Queue
@@ -72,7 +103,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Kth Largest / Smallest
 - Heap-Based Problem Solving
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Hashing & Collections
+
 - HashMap
 - LinkedHashMap
 - TreeMap
@@ -90,7 +128,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Counting Patterns
 - Java Collections Framework
 
+</td>
+<td width="600" valign="top">
+
 ### Trees
+
 - Binary Trees
 - Binary Search Trees
 - DFS
@@ -104,7 +146,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Path-Based Problems
 - Height / Depth Problems
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Graphs
+
 - Graph Representation
 - Adjacency List
 - BFS
@@ -118,7 +167,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Graph Traversal
 - Shortest Path Concepts
 
+</td>
+<td width="600" valign="top">
+
 ### Recursion
+
 - Recursive Problem Solving
 - Parameter-Based Recursion
 - State-Based Recursion
@@ -127,7 +180,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Divide & Conquer
 - Recursion + Memoization
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Backtracking
+
 - Subsets
 - Subsequences
 - Permutations
@@ -137,7 +197,11 @@ I use this repository to practice problems, understand different approaches, imp
 - State Exploration
 - Generate All Valid Configurations
 
+</td>
+<td width="600" valign="top">
+
 ### Dynamic Programming
+
 - Recursion + Memoization
 - 1D DP
 - 2D / 3D DP
@@ -147,7 +211,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Optimal Substructure
 - Tabulation Concepts
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Searching
+
 - Linear Search
 - Binary Search
 - Search on Sorted Data
@@ -155,7 +226,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Search Space Reduction
 - Boundary-Based Searching
 
+</td>
+<td width="600" valign="top">
+
 ### Sorting
+
 - Basic Sorting Techniques
 - Custom Sorting
 - Comparison-Based Sorting
@@ -164,7 +239,14 @@ I use this repository to practice problems, understand different approaches, imp
 - Sorting + Binary Search
 - Sorting-Based Problem Solving
 
+</td>
+</tr>
+
+<tr>
+<td width="600" valign="top">
+
 ### Greedy Algorithms
+
 - Greedy Strategy
 - Interval Problems
 - Scheduling
@@ -173,7 +255,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Sorting + Greedy
 - Activity / Resource Selection
 
+</td>
+<td width="600" valign="top">
+
 ### Core Concepts
+
 - Object-Oriented Programming
 - Classes & Objects
 - Encapsulation
@@ -184,13 +270,19 @@ I use this repository to practice problems, understand different approaches, imp
 - Space Complexity
 - Big-O Analysis
 
+</td>
+</tr>
+</table>
+
 ---
 
-# 🚀 Upcoming Topics
+## 🚀 Upcoming Topics
 
-This repository is continuously growing as I explore more advanced concepts.
+The repository is continuously growing as I explore more advanced concepts.
 
-The topics I plan to work on next include:
+<table>
+<tr>
+<td width="600" valign="top">
 
 - Trie
 - Bit Manipulation
@@ -208,31 +300,83 @@ The topics I plan to work on next include:
 - Digit DP
 - Bitmask DP
 
-More topics will be added as I progress.
+</td>
+</tr>
+</table>
 
 ---
 
-# 🧠 My Problem-Solving Approach
+## 🧠 My Problem-Solving Approach
 
-I try to solve problems progressively instead of immediately jumping to the most advanced solution.
+I don't try to jump directly to the optimal solution. I prefer to understand the problem first, build a simple solution, and improve it step by step.
 
-My usual approach is:
+<table>
+<tr>
+<td width="33%" align="center" valign="middle">
 
-**Understand the Problem**  
-↓  
-**Build a Brute Force Solution**  
-↓  
-**Analyze Time & Space Complexity**  
-↓  
-**Find a Better Approach**  
-↓  
-**Optimize Further**  
-↓  
-**Implement a Clean & Efficient Solution**
+### 1️⃣ Understand
 
-The goal is not just to get an accepted solution, but to understand **why** the solution works and how it can be improved.
+Understand the **problem, constraints, examples, and requirements** before writing the solution.
 
-I focus on:
+<br>
+
+</td>
+
+<td width="33%" align="center" valign="middle">
+
+### 2️⃣ Brute Force
+
+Start with the **simplest correct solution** and make sure the logic works before optimizing.
+
+<br>
+
+</td>
+
+<td width="33%" align="center" valign="middle">
+
+### 3️⃣ Analyze
+
+Study the **Time & Space Complexity** and identify the main bottlenecks in the solution.
+
+<br>
+
+</td>
+</tr>
+
+<tr>
+<td width="33%" align="center" valign="middle">
+
+### 4️⃣ Improve
+
+Look for **patterns, unnecessary operations, and better approaches** to improve the solution.
+
+<br>
+
+</td>
+
+<td width="33%" align="center" valign="middle">
+
+### 5️⃣ Optimize
+
+Reduce **time and space complexity** wherever possible and work toward an efficient solution.
+
+<br>
+
+</td>
+
+<td width="33%" align="center" valign="middle">
+
+### 6️⃣ Implement
+
+Write a **clean, readable, and efficient Java solution** that is easy to understand and maintain.
+
+<br>
+
+</td>
+</tr>
+</table>
+
+### 🎯 What I Focus On
 
 - Understanding the problem deeply
 - Identifying useful patterns
@@ -244,25 +388,13 @@ I focus on:
 - Writing clean and readable Java code
 - Learning from different approaches to the same problem
 
----
-
-# 🎯 Practice Focus
-
-- Problem Solving
-- Pattern Recognition
-- Interview-Oriented Problems
-- Efficient Implementations
-- Clean & Readable Java Code
-- Time & Space Optimization
-- LeetCode Practice
-- GeeksforGeeks Practice
-- Codeforces Practice
+The goal is not just to get an **accepted solution**, but to understand **why it works**, how it can be improved, and what makes the optimal approach better.
 
 ---
 
-# 📈 About This Repository
+## 📈 About This Repository
 
-This repository is a work in progress.
+This repository is a **work in progress**.
 
 As I learn new concepts and solve more problems, this repository will continue to grow. The **Upcoming Topics** section represents the concepts I plan to explore in the future.
 
@@ -274,12 +406,12 @@ Each problem is another step toward becoming a better problem solver.
 
 ---
 
-# 🔗 Connect With Me
+## 🔗 Connect With Me
 
 If you find this repository useful, feel free to explore my work and follow my coding journey.
 
-- 🌐 **Portfolio:** [ranjan-vercel.app](https://ranjan-vercel.app)
-- 💻 **LeetCode:** [leetcode.com/u/ranjan_22054204](https://www.leetcode.com/u/ranjan_22054204)
+- 🌐 **Portfolio:** [ranjan-vercel.app](https://ranjan-22054204.vercel.app)
+- 💻 **LeetCode:** [leetcode.com/u/ranjan_22054204](https://leetcode.com/u/ranjan_22054204)
 - 📚 **TakeUforward:** [takeuforward.org/profile/ranjan_22054204](https://takeuforward.org/profile/ranjan_22054204)
 
 ---
