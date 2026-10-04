@@ -1,11 +1,14 @@
-## 📚 Topics Covered
+# 📚 DSA & Problem Solving in Java
 
-<table>
-<tr>
-<td width="50%" valign="top">
+A growing collection of my **Data Structures, Algorithms, and Problem-Solving** journey, primarily implemented in **Java**.
+
+I use this repository to practice problems, understand different approaches, improve my problem-solving skills, and build efficient solutions for coding interviews and competitive programming.
+
+---
+
+# 📚 Topics Covered
 
 ### Arrays
-
 - Two Pointers
 - Sliding Window
 - Prefix Sum
@@ -18,11 +21,7 @@
 - Matrix / 2D Arrays
 - In-Place Manipulation
 
-</td>
-<td width="50%" valign="top">
-
 ### Strings
-
 - String Manipulation
 - Character Frequency
 - Hashing
@@ -34,14 +33,7 @@
 - Pattern Matching
 - String Parsing
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Linked Lists
-
 - Traversal
 - Insertion & Deletion
 - Reversal
@@ -52,11 +44,7 @@
 - Remove Nth Node
 - Pointer Manipulation
 
-</td>
-<td width="50%" valign="top">
-
 ### Stack
-
 - Stack Operations
 - Parentheses Problems
 - Monotonic Stack
@@ -66,14 +54,7 @@
 - Expression Problems
 - Stack-Based Traversal
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Queue
-
 - Queue Operations
 - Deque
 - Circular Queue
@@ -82,11 +63,7 @@
 - Sliding Window using Deque
 - Queue-Based Problems
 
-</td>
-<td width="50%" valign="top">
-
 ### Heap & Priority Queue
-
 - Min Heap
 - Max Heap
 - Priority Queue
@@ -95,14 +72,7 @@
 - Kth Largest / Smallest
 - Heap-Based Problem Solving
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Hashing & Collections
-
 - HashMap
 - LinkedHashMap
 - TreeMap
@@ -120,11 +90,7 @@
 - Counting Patterns
 - Java Collections Framework
 
-</td>
-<td width="50%" valign="top">
-
 ### Trees
-
 - Binary Trees
 - Binary Search Trees
 - DFS
@@ -138,14 +104,7 @@
 - Path-Based Problems
 - Height / Depth Problems
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Graphs
-
 - Graph Representation
 - Adjacency List
 - BFS
@@ -159,11 +118,7 @@
 - Graph Traversal
 - Shortest Path Concepts
 
-</td>
-<td width="50%" valign="top">
-
 ### Recursion
-
 - Recursive Problem Solving
 - Parameter-Based Recursion
 - State-Based Recursion
@@ -172,14 +127,7 @@
 - Divide & Conquer
 - Recursion + Memoization
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Backtracking
-
 - Subsets
 - Subsequences
 - Permutations
@@ -189,11 +137,7 @@
 - State Exploration
 - Generate All Valid Configurations
 
-</td>
-<td width="50%" valign="top">
-
 ### Dynamic Programming
-
 - Recursion + Memoization
 - 1D DP
 - 2D / 3D DP
@@ -203,14 +147,7 @@
 - Optimal Substructure
 - Tabulation Concepts
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Searching
-
 - Linear Search
 - Binary Search
 - Search on Sorted Data
@@ -218,11 +155,7 @@
 - Search Space Reduction
 - Boundary-Based Searching
 
-</td>
-<td width="50%" valign="top">
-
 ### Sorting
-
 - Basic Sorting Techniques
 - Custom Sorting
 - Comparison-Based Sorting
@@ -231,14 +164,7 @@
 - Sorting + Binary Search
 - Sorting-Based Problem Solving
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### Greedy Algorithms
-
 - Greedy Strategy
 - Interval Problems
 - Scheduling
@@ -247,11 +173,7 @@
 - Sorting + Greedy
 - Activity / Resource Selection
 
-</td>
-<td width="50%" valign="top">
-
 ### Core Concepts
-
 - Object-Oriented Programming
 - Classes & Objects
 - Encapsulation
@@ -262,13 +184,13 @@
 - Space Complexity
 - Big-O Analysis
 
-</td>
-</tr>
+---
 
-<tr>
-<td width="50%" valign="top">
+# 🚀 Upcoming Topics
 
-### 🚀 Upcoming Topics
+This repository is continuously growing as I explore more advanced concepts.
+
+The topics I plan to work on next include:
 
 - Trie
 - Bit Manipulation
@@ -286,10 +208,45 @@
 - Digit DP
 - Bitmask DP
 
-</td>
-<td width="50%" valign="top">
+More topics will be added as I progress.
 
-### 🧩 Practice Focus
+---
+
+# 🧠 My Problem-Solving Approach
+
+I try to solve problems progressively instead of immediately jumping to the most advanced solution.
+
+My usual approach is:
+
+**Understand the Problem**  
+↓  
+**Build a Brute Force Solution**  
+↓  
+**Analyze Time & Space Complexity**  
+↓  
+**Find a Better Approach**  
+↓  
+**Optimize Further**  
+↓  
+**Implement a Clean & Efficient Solution**
+
+The goal is not just to get an accepted solution, but to understand **why** the solution works and how it can be improved.
+
+I focus on:
+
+- Understanding the problem deeply
+- Identifying useful patterns
+- Starting with a simple approach
+- Improving the brute-force solution
+- Reducing unnecessary operations
+- Optimizing time complexity
+- Optimizing space complexity
+- Writing clean and readable Java code
+- Learning from different approaches to the same problem
+
+---
+
+# 🎯 Practice Focus
 
 - Problem Solving
 - Pattern Recognition
@@ -301,6 +258,30 @@
 - GeeksforGeeks Practice
 - Codeforces Practice
 
-</td>
-</tr>
-</table>
+---
+
+# 📈 About This Repository
+
+This repository is a work in progress.
+
+As I learn new concepts and solve more problems, this repository will continue to grow. The **Upcoming Topics** section represents the concepts I plan to explore in the future.
+
+The objective is simple:
+
+> **Learn → Practice → Understand → Optimize → Improve**
+
+Each problem is another step toward becoming a better problem solver.
+
+---
+
+# 🔗 Connect With Me
+
+If you find this repository useful, feel free to explore my work and follow my coding journey.
+
+- 🌐 **Portfolio:** [ranjan-vercel.app](https://ranjan-vercel.app)
+- 💻 **LeetCode:** [leetcode.com/u/ranjan_22054204](https://www.leetcode.com/u/ranjan_22054204)
+- 📚 **TakeUforward:** [takeuforward.org/profile/ranjan_22054204](https://takeuforward.org/profile/ranjan_22054204)
+
+---
+
+⭐ If you find something useful here, consider giving the repository a star.
