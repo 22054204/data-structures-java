@@ -4,7 +4,7 @@ Constraints:
 1 <= nums[i] <= 10^9
 1 <= target <= 10^9
  */
-package problems_solved_on_intellij;
+package LeetCode_Problems;
 import java.util.*;
 public class leetcode_3739 {
     public static void main() {

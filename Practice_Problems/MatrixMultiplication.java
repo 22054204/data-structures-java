@@ -1,4 +1,4 @@
-package problems_solved_on_intellij;
+package Practice_Problems;
 
 import java.util.Arrays;
 

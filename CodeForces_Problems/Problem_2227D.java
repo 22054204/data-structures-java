@@ -1,4 +1,4 @@
-package CodeForces;
+package CodeForces_Problems;
 
 import java.util.*;
 public class Problem_2227D{

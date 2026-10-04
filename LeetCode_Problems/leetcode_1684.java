@@ -1,4 +1,4 @@
-package problems_solved_on_intellij;
+package LeetCode_Problems;
 
 import java.util.*;
 public class leetcode_1684 {
