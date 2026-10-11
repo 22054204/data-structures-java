@@ -9,7 +9,7 @@ public class DisJoint_Union_Set_With_Union_By_Rank {
         if (parent[x] == x) {
             return x;
         }
-        return find(parent[x]);
+        return parent[x] = find(parent[x]);  // path compression
     }
 
     static void union(int x, int y) {
