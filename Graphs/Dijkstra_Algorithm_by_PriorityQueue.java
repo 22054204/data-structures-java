@@ -1,42 +1,42 @@
 package Graphs;
 
 /*
-Given an undirected, weighted graph with V vertices numbered from 0 to V-1 and E edges,
-represented by a 2D array edges[][], where edges[i] = [u, v, w] represents an edge
-between nodes u and v having weight w.
+Given an undirected, weighted graph with V vertices numbered from 0 to V-1
+and E edges, represented by a 2D array edges[][], where edges[i] = [u, v, w]
+represents an edge between nodes u and v having weight w.
 
-Find the shortest distance of all the vertices from the source vertex src, and return
-an array of integers where the ith element denotes the shortest distance between the
-source vertex and vertex i.
+Find the shortest distance of all the vertices from the source vertex src,
+and return an array of distances.
 
 Note:
 The graph is connected and doesn't contain any negative weight edge.
-It is guaranteed that all the shortest distances will fit in a 32-bit integer.
+It is guaranteed that all the shortest distances fit in a 32-bit integer.
 
 Examples:
 
 Input:
-V = 3, edges[][] = [[0, 1, 1], [1, 2, 3], [0, 2, 6]], src = 2
+V = 3
+edges[][] = [[0, 1, 1], [1, 2, 3], [0, 2, 6]]
+src = 2
 
 Output:
 [4, 3, 0]
 
 Explanation:
-For 2 to 0, minimum distance will be 4. By following path 2 -> 1 -> 0.
-For 2 to 1, minimum distance will be 3. By following path 2 -> 1.
-For 2 to 2, minimum distance will be 0.
+For 2 to 0, the minimum distance is 4 via 2 -> 1 -> 0.
+For 2 to 1, the minimum distance is 3 via 2 -> 1.
+For 2 to 2, the minimum distance is 0.
 
 Input:
-V = 5, edges[][] = [[0, 1, 4], [0, 2, 8], [1, 4, 6], [2, 3, 2], [3, 4, 10]], src = 0
+V = 5
+edges[][] = [[0, 1, 4], [0, 2, 8], [1, 4, 6], [2, 3, 2], [3, 4, 10]]
+src = 0
 
 Output:
 [0, 4, 8, 10, 10]
 
 Explanation:
-For 0 to 1, minimum distance is 4.
-For 0 to 2, minimum distance is 8.
-For 0 to 3, minimum distance is 10.
-For 0 to 4, minimum distance is 10.
+The shortest distances from vertex 0 are 0, 4, 8, 10, and 10.
 
 Constraints:
 1 ≤ V ≤ 10^6
@@ -46,9 +46,11 @@ Constraints:
 0 ≤ src < V
 */
 
+/* Using PriorityQueue / Min-Heap */
+
 import java.util.*;
 
-public class Dijkstra_Algorithm {
+public class Dijkstra_Algorithm_by_PriorityQueue {
     public static void main(String[] args) {
         int V = 3;
 
@@ -66,7 +68,7 @@ public class Dijkstra_Algorithm {
 
     public static ArrayList<Integer> dijkstra(int V, int[][] edges, int src) {
         ArrayList<Integer> result = new ArrayList<>();
-        ArrayList<Integer> ans = new ArrayList<>();
+        ArrayList<Integer> num = new ArrayList<>();
 
         int[] res = new int[V];
         Arrays.fill(res, Integer.MAX_VALUE);
@@ -112,8 +114,8 @@ public class Dijkstra_Algorithm {
             }
         }
 
-        for(int num:res){
-            result.add(num);
+        for(int n:res){
+            result.add(n);
         }
 
         return result;
