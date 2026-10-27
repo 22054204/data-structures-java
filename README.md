@@ -154,18 +154,20 @@ I use this repository to practice problems, understand different approaches, imp
 
 ### Graphs
 
-- Graph Representation
-- Adjacency List
-- BFS
-- DFS
-- Connected Components
-- Cycle Detection
-- Directed Graphs
-- Undirected Graphs
-- Bipartite Graphs
-- Topological Sort
-- Graph Traversal
-- Shortest Path Concepts
+- Graph Representation (Matrix & Adjacency List)
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Connected Components (Number of Provinces)
+- Cycle Detection in Undirected Graph (BFS & DFS)
+- Cycle Detection in Directed Graph (DFS & BFS / Kahn's)
+- Topological Sort (DFS & Kahn's Algorithm)
+- Bipartite Graph Verification (BFS & DFS)
+- Cycle Detection using DSU
+- Dijkstra's Algorithm (Priority Queue)
+- Shortest Path on 2D Grids / Matrix
+- Bellman-Ford Algorithm (Negative Weights & Cycles)
+- Floyd-Warshall Algorithm (All-Pairs Shortest Path)
+- Path Reconstruction & Parent Tracking
 
 </td>
 <td width="600" valign="top">
@@ -272,6 +274,34 @@ I use this repository to practice problems, understand different approaches, imp
 
 </td>
 </tr>
+
+<tr>
+<td width="600" valign="top">
+
+### Disjoint Set Union (DSU)
+
+- Disjoint Set / Union-Find Basics
+- Find with Path Compression
+- Union by Rank
+- Dynamic Connectivity
+- Cycle Detection in Undirected Graphs
+- Connected Component Counting
+- Equivalence & Equation Satisfiability
+
+</td>
+<td width="600" valign="top">
+
+### Range Query Techniques
+
+- Square Root (Sqrt) Decomposition
+- Block-Based Array Decomposition
+- Range Sum Queries
+- Range Minimum / Maximum Queries
+- Point Updates & Range Queries
+- Query Optimization in O(√N)
+
+</td>
+</tr>
 </table>
 
 ---
@@ -284,21 +314,34 @@ The repository is continuously growing as I explore more advanced concepts.
 <tr>
 <td width="600" valign="top">
 
+### 🌲 Advanced Data Structures & Algorithms
+
 - Trie
 - Bit Manipulation
-- Segment Tree
+- Segment Tree (Range Queries & Lazy Propagation)
 - Fenwick Tree (Binary Indexed Tree)
-- Disjoint Set Union (Union-Find)
+- Mo's Algorithm (Offline Range Queries)
 - Meet in the Middle
-- Advanced String Algorithms
-- Range Query Techniques
-- Lowest Common Ancestor (LCA)
-- Strongly Connected Components (SCC)
-- Bridges & Articulation Points
-- Network Flow
-- Number Theory
+- Advanced String Algorithms (KMP, Z-Algorithm)
+- Number Theory & Combinatorics
 - Digit DP
 - Bitmask DP
+
+</td>
+<td width="600" valign="top">
+
+### 🕸️ Advanced Graph Algorithms
+
+- Minimum Spanning Tree (Prim's Algorithm)
+- Minimum Spanning Tree (Kruskal's Algorithm)
+- Strongly Connected Components (Kosaraju's Algorithm)
+- Eulerian Path & Circuit (Hierholzer's Algorithm)
+- Multi-Source BFS
+- 0-1 BFS (Deque BFS)
+- Graph & Tree Diameter
+- Bridges & Articulation Points (Tarjan's Algorithm)
+- Lowest Common Ancestor (LCA)
+- Network Flow
 
 </td>
 </tr>
