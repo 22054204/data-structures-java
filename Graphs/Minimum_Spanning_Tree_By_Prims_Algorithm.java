@@ -2,7 +2,7 @@ package Graphs;
 
 import java.util.*;
 
-public class Minimum_Spanning_Tree {
+public class Minimum_Spanning_Tree_By_Prims_Algorithm {
     /*
     Minimum Spanning Tree
 
