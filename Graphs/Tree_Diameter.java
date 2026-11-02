@@ -3,6 +3,11 @@ package Graphs;
 /*
         LeetCode 1245 (Premium) - Tree Diameter
 
+        Problem Link :-
+        -> https://leetcode.com/problems/tree-diameter/description/
+        -> https://leetcode.ca/all/1245.html
+
+
         Difficulty: Medium
         Topics: Graph, BFS, DFS, Tree
 
