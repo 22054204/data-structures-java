@@ -109,6 +109,31 @@ I use this repository to practice problems, understand different approaches, imp
 <tr>
 <td width="600" valign="top">
 
+### Graphs
+
+- Graph Representation (Matrix & Adjacency List)
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Connected Components (Number of Provinces)
+- Cycle Detection in Undirected Graphs (BFS & DFS)
+- Cycle Detection in Directed Graphs (DFS & Kahn's BFS)
+- Topological Sort (DFS & Kahn's Algorithm)
+- Bipartite Graph Checking (BFS & DFS)
+- Dijkstra's Algorithm (Priority Queue & Path Reconstruction)
+- Shortest Path on 2D Grids / Matrices
+- Bellman-Ford Algorithm (Negative Weights & Cycles)
+- Floyd-Warshall Algorithm (All-Pairs Shortest Path)
+- Multi-Source BFS
+- 0-1 BFS (Deque-based Shortest Path)
+- Minimum Spanning Tree (Prim's Algorithm)
+- Minimum Spanning Tree (Kruskal's Algorithm)
+- Strongly Connected Components (Kosaraju's Algorithm)
+- Eulerian Path & Eulerian Circuit (Hierholzer's Algorithm)
+- Tree & Graph Diameter (2-DFS / BFS Traversal)
+
+</td>
+<td width="600" valign="top">
+
 ### Hashing & Collections
 
 - HashMap
@@ -122,29 +147,11 @@ I use this repository to practice problems, understand different approaches, imp
 - Stack
 - Queue
 - Deque
-- List / Set / Map
-- Frequency Maps
-- Lookup Patterns
-- Counting Patterns
-- Java Collections Framework
-
-</td>
-<td width="600" valign="top">
-
-### Trees
-
-- Binary Trees
-- Binary Search Trees
-- DFS
-- BFS
-- Preorder Traversal
-- Inorder Traversal
-- Postorder Traversal
-- Level Order Traversal
-- Recursive / Iterative Traversal
-- Tree Properties
-- Path-Based Problems
-- Height / Depth Problems
+- List / Set / Map Interfaces
+- Frequency Maps & Lookup Patterns
+- Counting & Sliding Window Hashing
+- Collision Resolution Concepts
+- Java Collections Framework Hierarchy
 
 </td>
 </tr>
@@ -152,24 +159,41 @@ I use this repository to practice problems, understand different approaches, imp
 <tr>
 <td width="600" valign="top">
 
-### Graphs
+### Trees
 
-- Graph Representation (Matrix & Adjacency List)
-- Breadth-First Search (BFS)
-- Depth-First Search (DFS)
-- Connected Components (Number of Provinces)
-- Cycle Detection in Undirected Graph (BFS & DFS)
-- Cycle Detection in Directed Graph (DFS & BFS / Kahn's)
-- Topological Sort (DFS & Kahn's Algorithm)
-- Bipartite Graph Verification (BFS & DFS)
-- Cycle Detection using DSU
-- Dijkstra's Algorithm (Priority Queue)
-- Shortest Path on 2D Grids / Matrix
-- Bellman-Ford Algorithm (Negative Weights & Cycles)
-- Floyd-Warshall Algorithm (All-Pairs Shortest Path)
-- Path Reconstruction & Parent Tracking
+- Binary Trees & Binary Search Trees (BST)
+- Depth-First Search (DFS) Traversal
+- Breadth-First Search (BFS) Traversal
+- Preorder, Inorder & Postorder Traversals
+- Level Order Traversal
+- Recursive & Iterative Traversals
+- Tree Properties (Height, Depth, Diameter)
+- Path-Based & Ancestor Problems
+- Tree Construction & Serialization
+- Lowest Common Ancestor (LCA)
+- Balanced BST Operations (Insert, Delete, Search)
+- Tree Views & Boundary Traversal
 
 </td>
+<td width="600" valign="top">
+
+### Dynamic Programming
+
+- Top-Down Approach (Recursion + Memoization)
+- Bottom-Up Approach (Iterative Tabulation)
+- 1D DP (Linear States)
+- 2D / 3D DP (Multi-Dimensional States)
+- Grid DP (Pathfinding & Cost Optimization)
+- State Transitions & Recurrence Relations
+- Space Optimization Techniques
+- Identifying Overlapping Subproblems
+- Optimal Substructure Formulations
+- Decision Making & Boundary Conditions
+
+</td>
+</tr>
+
+<tr>
 <td width="600" valign="top">
 
 ### Recursion
@@ -180,38 +204,22 @@ I use this repository to practice problems, understand different approaches, imp
 - Choice-Based Recursion
 - Recursive Traversal
 - Divide & Conquer
-- Recursion + Memoization
+- Base Case & Stack Space Analysis
+- Recursion Tree Visualization
 
 </td>
-</tr>
-
-<tr>
 <td width="600" valign="top">
 
 ### Backtracking
 
-- Subsets
-- Subsequences
-- Permutations
-- Combinations
+- Subsets & Subsequences
+- Permutations & Combinations
 - Decision Trees
 - Constraint-Based Search
 - State Exploration
+- State Restoration (Backtrack Step)
 - Generate All Valid Configurations
-
-</td>
-<td width="600" valign="top">
-
-### Dynamic Programming
-
-- Recursion + Memoization
-- 1D DP
-- 2D / 3D DP
-- Grid DP
-- State Transitions
-- Overlapping Subproblems
-- Optimal Substructure
-- Tabulation Concepts
+- Pruning Infeasible Branches
 
 </td>
 </tr>
@@ -260,17 +268,14 @@ I use this repository to practice problems, understand different approaches, imp
 </td>
 <td width="600" valign="top">
 
-### Core Concepts
+### Range Query Techniques
 
-- Object-Oriented Programming
-- Classes & Objects
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-- Time Complexity
-- Space Complexity
-- Big-O Analysis
+- Square Root (Sqrt) Decomposition
+- Block-Based Array Decomposition
+- Range Sum Queries
+- Range Minimum / Maximum Queries
+- Point Updates & Range Queries
+- Query Optimization in O(√N)
 
 </td>
 </tr>
@@ -283,22 +288,27 @@ I use this repository to practice problems, understand different approaches, imp
 - Disjoint Set / Union-Find Basics
 - Find with Path Compression
 - Union by Rank
+- Union by Size
 - Dynamic Connectivity
 - Cycle Detection in Undirected Graphs
+- Kruskal's MST Integration
 - Connected Component Counting
 - Equivalence & Equation Satisfiability
 
 </td>
 <td width="600" valign="top">
 
-### Range Query Techniques
+### Core Concepts
 
-- Square Root (Sqrt) Decomposition
-- Block-Based Array Decomposition
-- Range Sum Queries
-- Range Minimum / Maximum Queries
-- Point Updates & Range Queries
-- Query Optimization in O(√N)
+- Object-Oriented Programming (OOP)
+- Classes & Objects
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Time Complexity
+- Space Complexity
+- Big-O & Amortized Analysis
 
 </td>
 </tr>
@@ -316,32 +326,33 @@ The repository is continuously growing as I explore more advanced concepts.
 
 ### 🌲 Advanced Data Structures & Algorithms
 
-- Trie
-- Bit Manipulation
+- Trie (Prefix Tree)
+- Bit Manipulation & Bitmasking
 - Segment Tree (Range Queries & Lazy Propagation)
 - Fenwick Tree (Binary Indexed Tree)
 - Mo's Algorithm (Offline Range Queries)
+- Sparse Table (Range Minimum Queries)
 - Meet in the Middle
 - Advanced String Algorithms (KMP, Z-Algorithm)
 - Number Theory & Combinatorics
-- Digit DP
-- Bitmask DP
+- DP on Trees (Tree DP & Subtree Aggregations)
+- Bitmask DP (Travelling Salesperson & State Compression)
+- Digit DP (Digit-Constrained Counting)
 
 </td>
 <td width="600" valign="top">
 
-### 🕸️ Advanced Graph Algorithms
+### 🕸️ Advanced Graph & Tree Algorithms
 
-- Minimum Spanning Tree (Prim's Algorithm)
-- Minimum Spanning Tree (Kruskal's Algorithm)
-- Strongly Connected Components (Kosaraju's Algorithm)
-- Eulerian Path & Circuit (Hierholzer's Algorithm)
-- Multi-Source BFS
-- 0-1 BFS (Deque BFS)
-- Graph & Tree Diameter
 - Bridges & Articulation Points (Tarjan's Algorithm)
-- Lowest Common Ancestor (LCA)
-- Network Flow
+- Tarjan's Strongly Connected Components (Tarjan's SCC)
+- Lowest Common Ancestor (LCA via Binary Lifting)
+- Binary Lifting on Trees
+- Heavy-Light Decomposition (HLD)
+- Centroid Decomposition
+- Maximum Flow & Min-Cut (Ford-Fulkerson, Dinic's)
+- Bipartite Matching (Hopcroft-Karp)
+- 2-SAT (2-Satisfiability)
 
 </td>
 </tr>
